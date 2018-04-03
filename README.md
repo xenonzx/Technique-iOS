@@ -1,3 +1,6 @@
 # Technique-iOS
-A tutorial on SceneKit SCNTechnique
-[Tutorial available on my blog](http://blog.simonrodriguez.fr/articles/26-08-2015_a_few_scntechnique_examples.html)
+
+This repo is a fork of [Simon Rodriguez's Repo](https://github.com/kosua20/Technique-iOS)  updated to follow swift 4
+
+
+Aou can follow the tutorial in his[ blog](http://blog.simonrodriguez.fr/articles/26-08-2015_a_few_scntechnique_examples.html)
