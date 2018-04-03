@@ -19,5 +19,6 @@ void main() {
     //Compute magnitude (or angle)
     float mag = sqrt(gx2*gx2+gy2*gy2);
     //float theta = atan(gy2,gx2);
+    // the 0.5 value is user to adjust coloring
     gl_FragColor.rgb = vec3(mag*0.5);
 }

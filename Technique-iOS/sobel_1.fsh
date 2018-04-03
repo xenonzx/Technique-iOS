@@ -6,6 +6,7 @@ uniform vec2 size;
 float rgb_2_luma(vec3 c){ return .3*c[0] + .59*c[1] + .11*c[2]; }
 
 void main() {
+    // https://en.wikipedia.org/wiki/Sobel_operator
     //Compute the first pass of Gx : [1 0 -1]
     float t_x_0 = 1.0 * rgb_2_luma(texture2D(colorSampler,uv+vec2(-1.0,0.0)/size).rgb);
     float t_x_2 = -1.0 * rgb_2_luma(texture2D(colorSampler,uv+vec2(1.0,0.0)/size).rgb);
